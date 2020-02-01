@@ -35,17 +35,20 @@ source ~/.devops/bin/activate
 ```
 
 At this point your command line should look something like:
+
 ```
 (.devops) <User>:project-ml-microservice-kubernetes<user>$
 ```
 
 Installing dependencies via project Makefile
+
 ```
 make install
 ```
 
 ### RUNNING THE APP
 To run the APP into a terminal 
+
 ```
 ./run_docker.sh
 ```
@@ -58,6 +61,7 @@ Successfully tagged <your tag>
 ```
 
 into other tab open a new terminal and run
+
 ```
 ./make_prediction.sh
 ```

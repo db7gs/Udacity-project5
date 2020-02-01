@@ -6,6 +6,25 @@ This is a project for udacity nanodegree Cloud dev-ops Engineer about to use Doc
 ### DESCRIPTION
 In this project I applied all the skills I have learned to setup a Machine Learning Microservice API into Docker.
 
+
+## The files included are:
+```sh
+* /.circleci : CircleCI configuration file for running the tests.
+* /model_data : all the relevant data for the model.
+* /output_txt_files : Output log files with the result of the model run execution 
+* Dockerfile : Dockerfile for building the image 
+* Makefile : includes instructions on environment setup and lint tests
+* app.py : Python  app that serves our predictions. 
+* make_prediction.sh : Send a request to the app to get a prediction.
+* requirements.txt : Install any dependencies 
+* run_docker.sh : file to be able to get Docker run
+* run_kubernetes.sh : file to run the app in kubernetes
+* upload_docker.sh : file to upload the image to docker
+
+## CircleCI Integration
+
+This repository has been verified with CircleCI
+
 ### SETUP
 After clonnig the project follow this steps:
 

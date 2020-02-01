@@ -1,3 +1,18 @@
+NAME                           READY   STATUS    RESTARTS   AGE
+udacity-77c488645d-n18nc   1/1     Running   0          9m17s
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+Handling connection for 8000
+Handling connection for 8000
+ * Serving Flask app "app" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+* Debug mode: on
+* Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+* Restarting with stat
+* Debugger is active!
+* Debugger PIN: 114-308-546
 [2020-01-31 23:19:28,333] INFO in app: JSON payload: 
 {'CHAS': {'0': 0}, 'RM': {'0': 6.575}, 'TAX': {'0': 296.0}, 'PTRATIO': {'0': 15.3}, 'B': {'0': 396.9}, 'LSTAT': {'0': 4.98}}
 [2020-01-31 23:19:28,359] INFO in app: Inference payload DataFrame: 
